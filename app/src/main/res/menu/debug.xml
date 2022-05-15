@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_dbgstate"
+        android:onClick="dbgMenu"
+        android:orderInCategory="100"
+        android:title="state udp"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_dbgrun"
+        android:onClick="dbgMenu"
+        android:orderInCategory="100"
+        android:title="run udp"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_dbgstop"
+        android:onClick="dbgMenu"
+        android:orderInCategory="100"
+        android:title="stop udp"
+        app:showAsAction="never" />
+</menu>
